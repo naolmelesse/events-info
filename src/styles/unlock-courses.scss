@@ -1,0 +1,45 @@
+
+.unlock-courses{
+    display: flex;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;   
+    margin: auto;
+    color: #000;
+
+    img:hover{
+        transition: ease-in-out 0.5s;
+        transform: scale(1.05);
+        .locked-course-description{
+            display: block;
+            transform: scale(1.05);
+        }
+    }
+    .locked-course-description{
+        display: none;
+        position: relative;
+        margin-top: -15%;
+    }
+    .locked-course{
+        width: 25vw;
+        filter: blur(1px);
+        position: relative;
+    }
+    .unlocked-course{
+        width: 40vw;
+
+    }
+
+    .lock-icon{
+        position: relative;
+        margin-bottom: -40%;
+        margin-left: 40%;
+        z-index: 1;
+    }
+
+    .unlocked{
+        margin-left: 45%;
+        color: #fefefe;
+     }
+}

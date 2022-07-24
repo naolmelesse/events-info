@@ -1,0 +1,43 @@
+.contact-us-wrapper{
+    display: flex;
+    background-image: url('https://bit.ly/3cxYHY4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    padding: 2rem 0;
+    justify-content: right;
+}
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    margin-right: 10vw;
+    padding: 1rem 0.5rem;
+    .contact-form{
+
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        input, textarea{
+            width: 25vw;
+            margin: 1rem 0 1.5rem 0;
+
+            padding: 0.5rem 0;
+            background-color: transparent;
+            border: none;
+            border-bottom: solid 1px #000;
+            outline: none;
+        }
+        .submit{
+            border: none;
+            background-color: #205375;
+            color: #fefefe;
+        }
+        ::placeholder{
+            color: #000;
+        }
+    }
+}
